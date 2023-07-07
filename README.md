@@ -14,7 +14,7 @@ npm run start
 # avec Docker
 # 1. installer les dépendances
 mkdir node_modules
-docker run -it --rm -v $(pwd)/:/home/node/app node:14 bash -c "cd /home/node/app;npm install"
+docker run --rm -v $(pwd)/:/usr/src/app -w /usr/src/app node:14 npm install
 
 # 2. démarrer l'application
 docker run -p 8080:8080 -v $(pwd)/:/usr/src/app -w /usr/src/app node:14 npm run start
