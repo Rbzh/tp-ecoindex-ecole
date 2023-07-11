@@ -57,17 +57,6 @@ langs.forEach(lang => {
 
 tradPage()
 
-/* Délai sur l'apparition des éléments */
-
-const spawnList = Array.from(document.querySelectorAll("[data-spawn]"))
-
-const intervalId = setInterval(() => {
-    const element = spawnList.pop()
-    element.removeAttribute("data-spawn")
-    if(spawnList.length === 0){
-        clearInterval(intervalId)
-    }
-}, 150)
 
 /* SEO version 2005 */
 
