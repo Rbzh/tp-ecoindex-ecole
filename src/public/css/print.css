@@ -1,0 +1,17 @@
+html {
+    --bg-content: white;
+    --bg-light: white;
+    --bg-dark: white;
+}
+
+.index__nav, .index__footer {
+    display: none;
+}
+
+.facteurs__info {
+    display: block
+}
+
+.facteurs__desc, .facteurs__photo, .index__article {
+    width: 100%;
+}
