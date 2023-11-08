@@ -1,7 +1,3 @@
-
-Pré-requis :
-* node version 14+ ou Docker
-
 # Pré-requis
 
 Installer node sur votre poste.
