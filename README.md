@@ -2,6 +2,26 @@
 Pré-requis :
 * node version 14+ ou Docker
 
+# Pré-requis
+
+Installer node sur votre poste.
+
+Si vous êtes sur Ubuntu : 
+
+```sh
+sudo apt update
+sudo apt install nodejs npm
+```
+
+Sur Windows/Mac : https://nodejs.org/en/download
+
+Vérifier que node version 14+ est installé :
+
+```sh
+node -v
+```
+La version doit être supérieure à 14
+
 # Lancer le serveur
 
 ```sh
