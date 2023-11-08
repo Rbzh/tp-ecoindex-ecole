@@ -1,6 +1,10 @@
+# Matériel nécessaire
+1 PC pour 2 ou 3
+Un environnement de développement type "Visual Studio Code" ou un éditeur de texte, à défaut
+
 # Pré-requis
 
-Installer node sur votre poste.
+Il vous faudra installer node sur votre poste.
 
 Si vous êtes sur Ubuntu : 
 
@@ -16,7 +20,11 @@ Vérifier que node version 14+ est installé :
 ```sh
 node -v
 ```
-La version doit être supérieure à 14
+La version doit être supérieure à 14.
+
+Ensuite, installez l'extension GreenIT Analysis.
+Chrome : https://chromewebstore.google.com/detail/greenit-analysis/mofbfhffeklkbebfclfaiifefjflcpad?hl=fr&pli=1
+Firefox : TODO
 
 # Lancer le serveur
 
