@@ -2,6 +2,11 @@
 1 PC pour 2 ou 3
 Un environnement de développement type "Visual Studio Code" ou un éditeur de texte, à défaut
 
+# TODO
+
+Mettre à jour la doc : install par nvm
+
+
 # Pré-requis
 
 Il vous faudra installer node sur votre poste.
